@@ -13,106 +13,87 @@
       --gold: #d4AF37;
       --white: #FFFFFF;
       --serif: 'Playfair Display', serif;
-      --sans: 'Source Sans Pro', sans-serif;
-    }
+      --sans: 'Source Sans Pro', sans-serif;}
     *, *::before, *::after { box-sizing: border-box; }
     body {
       margin:0; padding:0;
       background: var(--bg);
       color: var(--white);
       font-family: var(--sans);
-      line-height: 1.6;
-    }
+      line-height: 1.6;}
     header {
       text-align: center;
-      padding: 3rem 1rem;
-    }
+      padding: 3rem 1rem;}
     header h1 {
       margin: 0;
       font-family: var(--serif);
       font-size: 3rem;
-      color: var(--gold);
-    }
+      color: var(--gold);}
     header p {
       margin: .5rem 0 0;
       font-size: 1.2rem;
-      opacity: .85;
-    }
+      opacity: .85;}
     nav {
       text-align: center;
-      padding: .5rem 0 2rem;
-    }
+      padding: .5rem 0 2rem;}
     nav a {
       margin: 0 .75rem;
       color: var(--white);
       text-decoration: none;
-      font-weight: 600;
-    }
+      font-weight: 600;}
     section {
       max-width: 800px;
       margin: auto;
-      padding: 2rem 1rem;
-    }
+      padding: 2rem 1rem;}
     h2 {
       font-family: var(--serif);
       font-size: 2rem;
       color: var(--gold);
       margin-bottom: 1rem;
       border-bottom: 1px solid #444;
-      padding-bottom: .5rem;
-    }
+      padding-bottom: .5rem;}
     .card {
       background: var(--card);
       padding: 1.5rem;
       border-radius: 8px;
-      margin-bottom: 2rem;
-    }
+      margin-bottom: 2rem;}
     /* MENU STYLING */
     .menu-item {
-      margin-bottom: 1.75rem;
-    }
+      margin-bottom: 1.75rem;}
     .menu-item h3 {
       font-family: var(--serif);
       font-size: 1.25rem;
       color: var(--gold);
-      margin: 0 0 .25rem;
-    }
+      margin: 0 0 .25rem;}
     .menu-item p {
       margin: 0;
-      color: var(--white);
-    }
+      color: var(--white);}
     .menu-item p .pair {
       display: block;
       margin-top: .25rem;
       font-weight: 600;
-      color: var(--gold);
-    }
+      color: var(--gold);}
     /* TABLE STYLING */
     table {
       width: 100%;
       border-collapse: collapse;
-      margin: 1rem 0;
-    }
+      margin: 1rem 0;}
     th, td {
       padding: .75rem;
       border-bottom: 1px solid #444;
-      text-align: left;
-    }
+      text-align: left;}
     th { font-weight: 600; }
     /* CONTACT FORM */
     .contact p {
-      margin: .5rem 0;
-    }
+      margin: .5rem 0;}
     .contact a {
       color: var(--gold);
-      font-weight: 600;
-    }
+      font-weight: 600;}
     footer {
       text-align: center;
       padding: 1rem;
       font-size: .85rem;
-      color: #aaa;
-    }
+      color: #aaa;}
   </style>
 </head>
 <body>
